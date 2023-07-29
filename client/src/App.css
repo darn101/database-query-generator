@@ -1,0 +1,1188 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.full-gen-box {
+  position: relative;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.back {
+
+  /* background-color: rgb(76, 99, 184); */
+  /* background-color: rgb(129, 245, 127); */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.select-box {
+  margin-left: 16%;
+  margin-top: 2rem;
+  padding-right: 5%;
+  width: 80%;
+  max-width: 25rem;
+}
+
+.head {
+  color: white;
+
+  margin-left: 35%;
+  padding-right: 5%;
+  width: 100%;
+  padding-top: 2rem;
+  font-family: Agdasima;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+}
+
+.gen-btn-box {
+  padding-bottom: 5%;
+  margin-top: 2rem;
+}
+
+
+.below-head {
+  color: white;
+  font-family: Montserrat;
+  font-size: 5rem;
+  top: 5rem;
+  width: 100%;
+}
+
+.text-field {
+  position: relative;
+  color: azure;
+  color: black;
+  font-weight: 800;
+}
+
+.sel-txt {
+  font-family: Catamaran;
+  text-transform: none;
+  font-size: 1.1rem;
+  word-spacing: 0.15rem;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+
+}
+
+.gen-txt {
+  font-family: Staatliches;
+  text-transform: capitalize;
+}
+
+.q-box {
+  /* position: relative; */
+  width: 100%;
+  color: black;
+  font-size: 1.2rem;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  color: aqua;
+}
+
+
+.query-box {
+
+  background-color: #FFF;
+  width: 90%;
+  height: 10rem;
+  margin-left: 5%;
+  margin-top: 2.5rem;
+  min-height: 16%;
+  max-width: 30rem;
+  padding-right: 5%;
+
+}
+
+.IconBox {
+  border: 0.1rem solid #FFF;
+  display: flex;
+  row-gap: 0%;
+  width: 38%;
+  margin-top: 5%;
+  margin-left: 36%;
+  padding: 0.5% 2% 1% 2%;
+  cursor: pointer;
+}
+
+.Heading {
+  color: white;
+  margin-left: 33%;
+  padding-right: 2%;
+  font-family: Agdasima;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+}
+
+.feat-box {
+  margin-top: 1rem;
+  width: 100%;
+  padding-bottom: 1.5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.list-box {
+  position: relative;
+  color: #FFF;
+  display: flex;
+  list-style-type: none;
+  margin-left: 5%;
+  font-family: Staatliches;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  padding-top: 2rem;
+  padding-right: 5%;
+
+
+}
+
+.head-items {
+  letter-spacing: 0.1rem;
+  width: 30%;
+  display: flex;
+  cursor: pointer;
+  margin-left: 5%;
+
+}
+
+.first-head {
+  letter-spacing: 0.1rem;
+  width: 30%;
+  display: flex;
+  cursor: pointer;
+}
+
+.head-items:hover {
+
+  text-decoration: underline;
+  text-decoration-thickness: 0.11rem;
+  text-decoration-color: rgb(89, 227, 76);
+
+
+}
+
+.down-icon {
+  font-size: 1rem;
+  margin-top: 3%;
+  padding-left: 3%;
+
+}
+
+.log-box {
+  letter-spacing: 0.1rem;
+  width: 30%;
+  position: relative;
+  border: 0.09rem solid white;
+  text-align: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 800;
+  border: 0.09rem solid white;
+  padding: 0rem 0.5rem;
+  margin-left: 24%;
+}
+
+.log-box:hover {
+  background-color: rgb(89, 227, 76);
+  color: #000;
+}
+
+.heading-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.head-desc {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-left: 5%;
+  color: #FFF;
+  width: 97%;
+  margin-top: 1.4%;
+  padding-right: 5%;
+}
+
+
+
+.first-page-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-box {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 1s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.elements {
+  width: 100%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-left: 3%;
+  border: 1px none rgba(137, 137, 137, 0.2);
+}
+
+.elements:hover {
+  border-style: solid;
+}
+
+.det-icon {
+  font-size: 2rem;
+  color: rgb(89, 227, 76);
+}
+
+.det-head-text {
+  font-size: 1.3rem;
+  font-family: Montserrat;
+  padding-right: 5%;
+}
+
+.det-para {
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-weight: 100;
+  padding-top: 2%;
+  width: 100%;
+  padding-right: 2%;
+}
+
+.slide-back {
+  background-color: rgb(89, 227, 76);
+  margin-top: 2%;
+  height: 12rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.sliderz {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.slide-head {
+  margin-top: 3rem;
+  padding-bottom: 3%;
+  color: black;
+  font-family: Catamaran;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.slide-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.slide-contact-box {
+  letter-spacing: 0.1rem;
+  width: 8.3rem;
+  border: 0.09rem solid white;
+  text-align: center;
+  border-radius: 1rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+  background-color: black;
+  color: rgb(89, 227, 76);
+  padding: 0.5rem;
+
+}
+
+.slide-contact-box:hover {
+
+  font-weight: 800;
+  background-color: rgb(89, 227, 76);
+  color: #000;
+}
+
+
+
+.slide-started-box {
+  letter-spacing: 0.1rem;
+  /* width: fit-content; */
+  border: 0.09rem solid white;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+  width: 8rem;
+  margin-left: 3%;
+
+}
+
+.slide-started-box:hover {
+  background-color: rgb(89, 227, 76);
+  color: #000;
+
+  font-weight: 2rem;
+  border-color: #000;
+}
+
+.link-word {
+  color: rgb(89, 227, 76);
+
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+}
+
+
+.check-box {
+  letter-spacing: 0.07rem;
+  width: 34%;
+
+  /* position: relative; */
+  margin-left: 32%;
+  border: 0.09rem solid white;
+  text-align: center;
+  /* height: 2rem; */
+  border-radius: 1rem;
+  color: rgb(89, 227, 76);
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+  text-decoration: none;
+  height: 2.4rem;
+  line-height: 2.4rem;
+}
+
+
+.link-word:hover {
+  background-color: rgb(89, 227, 76);
+  color: #000;
+  font-weight: 800;
+
+}
+
+.login-btn {
+  letter-spacing: 0.1rem;
+  color: #000;
+  padding: 0.6% 0.15% 0.6% 0.15%;
+  border-radius: 1.4rem;
+  background-color: rgb(89, 227, 76);
+  margin-top: 2%;
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+  height: 3rem;
+  /* width: 110%; */
+  text-align: center;
+  line-height: 3rem;
+  margin-left: 69%;
+}
+
+.sign-btn {
+  letter-spacing: 0.1rem;
+  color: #000;
+  padding: 0.6% 0.15% 0.6% 0.15%;
+  border-radius: 1.4rem;
+  background-color: rgb(89, 227, 76);
+  margin-top: 2%;
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-family: Catamaran;
+  cursor: pointer;
+  height: 3rem;
+  width: 110%;
+  text-align: center;
+  line-height: 3rem;
+  margin-left: 0%;
+}
+
+.log-btn-box {
+  padding-top: 10%;
+}
+
+.sign-btn-box {
+  padding-top: 10%;
+}
+
+.log-line {
+  margin-top: 2rem;
+  width: 15rem;
+  border-top: 0.08rem solid #4d4d4d;
+  margin-left: 20.5%;
+}
+
+.log-elements {
+  padding-bottom: 1rem;
+}
+
+.new-to {
+  font-size: 1.1rem;
+  color: #7c7979;
+}
+
+.sign-line {
+  color: rgb(89, 227, 76);
+  font-size: 1.1rem;
+  text-decoration: underline;
+  padding-left: 0.2rem;
+  cursor: pointer;
+
+}
+
+.no-login {
+  margin-top: 0.5rem;
+  margin-left: 15%;
+  display: flex;
+  padding-bottom: 2rem;
+  font-size: 0.7rem;
+}
+
+.no-sign-up {
+  margin-top: 0.5rem;
+  margin-left: 29%;
+  display: flex;
+  padding-bottom: 3rem;
+}
+
+.output-box {
+  padding-bottom: 5rem;
+}
+
+.log-head {
+  font-size: 2.5rem;
+  color: #FFF;
+  margin-left: 42%;
+  margin-top: 4%;
+  font-family: Oswald;
+  text-decoration: underline;
+  text-decoration-color: rgb(89, 227, 76);
+  text-decoration-thickness: 0.1rem;
+  text-decoration-skip-ink: 2rem;
+  padding-bottom: 1rem;
+}
+
+.sign-head {
+  font-size: 2.5rem;
+  color: #FFF;
+  margin-left: 38%;
+  margin-top: 4%;
+  font-family: Oswald;
+  text-decoration: underline;
+  text-decoration-color: rgb(89, 227, 76);
+  text-decoration-thickness: 0.1rem;
+  text-decoration-skip-ink: 2rem;
+  padding-bottom: 1rem;
+}
+
+.link-txt-login {
+  color: #FFF;
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
+.linky {
+  text-decoration: none;
+}
+
+.foot-elements-comp {
+  font-family: Catamaran;
+  width: 100%;
+  min-height: 20rem;
+  color: #FFF;
+  padding-top: 4rem;
+}
+
+.comp-desc {
+  line-height: 1.9rem;
+  margin-top: 1rem;
+  max-width: 9rem;
+}
+
+.copy-year {
+  font-weight: 600;
+  /* padding-left: 1.2rem; */
+}
+
+.copy-icon {
+  position: relative;
+  text-align: center;
+  top: 0.2rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.copyright-thing {
+  margin-top: 1.2rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 2%;
+}
+
+.media-handles {
+
+  word-spacing: 2rem;
+  cursor: pointer;
+}
+
+.media-icon {
+  font-size: 1.1rem;
+}
+
+.second-icon {
+  margin-left: 0.5rem;
+}
+
+.full-footer {
+  padding-bottom: 5rem;
+
+  padding-left: 5%;
+  max-width: 55%;
+  padding-right: 5%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30%;
+
+}
+
+.foot-elements {
+  font-family: Catamaran;
+  width: fit-content;
+  min-height: 20rem;
+  color: #FFF;
+  padding-top: 4rem;
+  margin-left: 3rem;
+
+}
+
+.learn-links {
+  padding-top: 2rem;
+  list-style-type: none;
+  width: fit-content;
+}
+
+.learn-link {
+  padding-bottom: 1.2rem;
+  cursor: pointer;
+}
+
+.about-full {
+  font-family: Catamaran;
+  color: #FFF;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5rem;
+}
+
+.about-head-txt {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-left: 32%;
+}
+
+.eula-head-txt {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.about-para {
+  padding-top: 1.3rem;
+  font-size: 1.1rem;
+  padding-bottom: 2rem;
+  width: 100%;
+
+}
+
+.strength-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.strength-list {
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  margin-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.define-para {
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin-top: 0.5rem;
+}
+
+.define-head {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.foot-link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.foot-link:hover {
+  color: rgb(89, 227, 76);
+}
+
+.cont-head {
+  color: #FFF;
+  font-size: 2rem;
+  font-family: Catamaran;
+  padding-left: 5%;
+  padding-top: 10%;
+  padding-right: 5%;
+  /* color: #e7e7e7; */
+}
+
+.con-submit {
+  letter-spacing: 0.1rem;
+  width: 8rem;
+  height: 4rem;
+  position: relative;
+  text-align: center;
+  line-height: 4rem;
+  padding: 0rem 1rem;
+  border-radius: 1rem;
+
+  margin-top: 4%;
+  font-size: 1.1rem;
+  font-weight: 900;
+  font-family: Catamaran;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(89, 227, 76);
+  color: #000;
+}
+
+
+.con-submit:hover {
+  background-color: rgb(80, 199, 69);
+  color: #000;
+}
+
+.menu-items {
+  font-family: Catamaran;
+  width: 20rem;
+  margin-right: 1rem;
+  background-color: white;
+  display: flex;
+  /* cursor: pointer; */
+
+}
+
+.menu-items:hover {
+  background-color: #efefef;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem 0rem 1rem 1rem;
+  background-color: white;
+}
+
+.menu-item {
+  font-size: 1.2rem;
+}
+
+.menu-icon {
+  padding: 0.3rem 1rem 1rem 0.3rem;
+}
+
+.det-icon-two {
+  font-size: 1.8rem;
+  color: rgb(89, 227, 76);
+}
+
+.menu-icon-two {
+  padding: 0.5rem 1.2rem 1.2rem 0.5rem;
+
+}
+
+.menu-item-head {
+  font-weight: 600;
+}
+
+.cont-link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.name-box {
+  letter-spacing: 0.1rem;
+  width: 11%;
+  position: relative;
+  left: 40%;
+  border: 0.09rem solid white;
+  text-align: center;
+  padding: 0.8% 0.15% 0.9% 0.15%;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.name-box:hover {
+  background-color: rgb(89, 227, 76);
+  color: #000;
+}
+
+.red-box {
+  background-color: #ff3535;
+  width: 25rem;
+  height: 2.5rem;
+  font-family: Catamaran;
+  margin-left: 37rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  display: flex;
+}
+
+.err-txt {
+  color: #efefef;
+  padding-left: 0.2rem;
+  padding-top: 0.4rem;
+  font-weight: 700;
+}
+
+.alert-icon {
+  color: #FFF;
+  margin: 0.5rem 0.8rem;
+  font-size: 1.5rem;
+}
+
+.error-msg {
+  color: #ff3535;
+  font-family: Catamaran;
+  padding-top: 0.1rem;
+  padding-left: 0.4rem;
+
+}
+
+.whites {
+  color: black;
+}
+
+.logdownbox {
+  position: relative;
+  background-color: #000;
+
+}
+
+.logpoptxt {
+  color: #000000;
+  padding: 0.8% 10% 0.9% 0.15%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* 
+.logout-box {
+  background-color: #FFF;
+  color: #000;
+  
+
+  border: 1px solid black;
+} */
+
+.logout-box {
+  background-color: rgb(89, 227, 76);
+  letter-spacing: 0.1rem;
+  position: relative;
+
+  text-align: center;
+
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  font-family: Catamaran;
+  text-align: center;
+
+  border-radius: 1rem;
+}
+
+.logout-box:hover {
+  color: #2a2a2a;
+}
+
+.contact-boxes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8.5rem;
+  width: 100%;
+}
+
+.contact-email {
+  margin-top: 5%;
+  background-color: #e7e7e7;
+  /* width: 100%; */
+  max-width: 50rem;
+  height: 30%;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.7rem;
+  font-weight: 600;
+}
+
+.contact-msg {
+  margin-top: 1rem;
+  background-color: #e7e7e7;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.7rem;
+  height: 10rem;
+  max-width: 50rem;
+}
+
+.outline {
+  border: 1px solid #FFF;
+
+  width: fit-content;
+  margin-left: 30.5%;
+  height: 3rem;
+  height: 3rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(89, 227, 76);
+  background-color: #000;
+  cursor: pointer;
+  font-size: 1.7rem;
+  font-weight: 200;
+  padding: 0.5rem;
+}
+
+.outline:hover {
+  background-color: rgb(89, 227, 76);
+  color: #000;
+}
+
+.upperpart {
+  color: #FFF;
+  padding-top: 3%;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding-bottom: 1%;
+  font-family: Catamaran;
+}
+
+.sign-upperpart {
+  color: #FFF;
+  padding-top: 3%;
+  font-size: 1.1rem;
+  font-weight: 900;
+  padding-bottom: 1%;
+  font-family: Catamaran;
+}
+
+.log-field {
+  height: 3rem;
+  min-width: 15rem;
+
+  border: 0.08rem solid #FFF;
+  border-radius: 0.4rem;
+}
+
+.sign-field {
+  height: 3rem;
+  min-width: 15rem;
+
+  border: 0.08rem solid #FFF;
+  border-radius: 0.4rem;
+}
+
+.log-boxs {
+  margin-left: 20%;
+  margin-top: 2%;
+  width: 26%;
+}
+
+.sign-box {
+  margin-left: 16%;
+  margin-top: 2%;
+  width: 15rem;
+  padding-right: 5%;
+}
+
+.login-fullbox {
+  width: 100%;
+}
+
+.foot-comp-head {
+  font-family: Agdasima;
+  letter-spacing: 3px;
+}
+
+
+@media (min-width:768px) {
+  .Heading {
+    margin-left: 42%;
+  }
+
+  .head-desc {
+    margin-left: 21%;
+  }
+
+  .check-box {
+    width: 20%;
+    min-width: 10rem;
+    margin-left: 40.5%;
+  }
+
+  .head {
+    margin-left: 45%;
+  }
+
+  .log-head {
+    margin-left: 48%;
+  }
+
+  .log-boxs {
+    margin-left: 38%;
+  }
+
+  .login-btn {
+    margin-left: 4%;
+
+  }
+
+  .no-login {
+    margin-left: 35%;
+  }
+
+  .log-line {
+    width: 25rem;
+    margin-left: 28%;
+  }
+
+  .select-box {
+    margin-left: 30%;
+  }
+
+  .query-box {
+    margin-left: 20%;
+  }
+
+  .outline {
+    margin-left: 43%;
+  }
+
+  .sign-box {
+    margin-left: 26%;
+    margin-top: 2%;
+    width: 25rem;
+    padding-right: 5%;
+  }
+
+  .sign-head {
+    margin-left: 47%;
+  }
+
+  .no-sign-up {
+    margin-left: 40%;
+  }
+
+  .first-head {
+    margin-left: 30%;
+    width: 20%;
+  }
+
+  .head-items {
+    width: 28%;
+    padding-right: 5%;
+  }
+
+  .log-box {
+    margin-left: 0%;
+    max-width: 8rem;
+  }
+}
+
+@media (min-width:912px) {
+
+  .head {
+    margin-left: 46%;
+  }
+
+  .feat-box {
+    display: flex;
+    padding-left: 2%;
+  }
+
+  .elements {
+    padding-right: 0%;
+    margin-left: 3%;
+  }
+
+  .det-head-text {
+    padding-right: 3%;
+  }
+
+  .Heading {
+    margin-left: 45%;
+  }
+
+  .head-desc {
+    margin-left: 32%;
+  }
+
+  .sliderz {
+    width: 100%;
+    display: flex;
+    padding-right: 5%;
+  }
+
+  .slide-head {
+    width: 35rem;
+  }
+
+
+
+  .slide-btns {
+    display: flex;
+    flex-direction: row;
+    max-height: 3rem;
+    padding-left: 23%;
+    margin-top: 4rem;
+    padding-right: 5%;
+
+  }
+
+  .slide-started-box {
+    padding-left: 5%;
+  }
+
+  .slide-head {
+    padding-bottom: 0%;
+    margin-top: 4rem;
+  }
+
+  .select-box {
+    margin-left: 36%;
+  }
+
+  .query-box {
+    margin-left: 29%;
+  }
+
+  .outline {
+    margin-left: 44%;
+  }
+
+
+
+  .head-box {
+    margin-left: 20%;
+  }
+
+  .full-footer {
+    display: flex;
+    padding-right: 5%;
+
+  }
+
+  .foot-elements {
+    width: 90%;
+
+  }
+
+  .learn-links {
+    width: 8rem;
+  }
+
+  .copyright-thing {
+    width: 12rem;
+  }
+
+
+  .foot-elements-comp {
+    width: 30rem;
+  }
+
+  .check-box {
+    width: 11%;
+    margin-left: 43.5%;
+  }
+
+  .login-btn {
+    margin-left: 0%;
+
+  }
+
+  .no-login {
+    margin-left: 39.5%;
+  }
+
+  .sign-box {
+    margin-left: 35.5%;
+  }
+
+  .no-sign-up {
+    margin-left: 43.5%;
+  }
+
+  .log-line {
+    margin-left: 34.5%;
+  }
+
+  .first-head {
+    margin-left: 35%;
+    width: 12%;
+  }
+
+  .head-items {
+    width: 36%;
+  }
+
+  .log-box {
+    margin-left: 0%;
+    max-width: 8rem;
+  }
+
+}
